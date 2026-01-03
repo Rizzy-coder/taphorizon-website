@@ -1,0 +1,12 @@
+# TapHorizon: Ascend Website
+# https://taphorizon.app
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://taphorizon.app/sitemap.xml
+
+# Disallow admin/development files if any
+Disallow: /*.log$
+Disallow: /*.json$
