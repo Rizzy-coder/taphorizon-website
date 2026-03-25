@@ -3,1082 +3,708 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="TapHorizon: Ascend - A rhythm game where you embody a cosmic yogi ascending through five elemental realms. Master breathwork-based attacks, defeat powerful bosses, and unlock 25 unique skins.">
-  <meta name="keywords" content="rhythm game, tap game, mobile game, iOS game, elemental, cosmic, meditation, breathwork, indie game">
-  <meta name="author" content="SkyTap Games">
+  <meta name="description" content="TapHorizon: Ascend is a rhythm-action game where your timing is your power. Tap to the beat, fight elemental bosses, and ascend through 50 handcrafted levels across 5 mystical realms. Free on iOS.">
+  <meta name="keywords" content="rhythm game, action game, tap game, mobile game, iOS game, boss battles, combo, beat game, music game, elemental, indie game, rhythm action">
+  <meta name="author" content="Hermes Horizon Pty Ltd">
+  <meta name="theme-color" content="#110E16">
+  <meta name="color-scheme" content="dark">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="canonical" href="https://www.taphorizon-ascend.com/">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="TapHorizon: Ascend - Elemental Rhythm Adventure">
-  <meta property="og:description" content="Ascend through 5 elemental realms. Master rhythm. Become legendary.">
-  <meta property="og:image" content="images/og-image.png">
-  <meta property="og:url" content="https://taphorizon.app">
+  <meta property="og:title" content="TapHorizon: Ascend | Rhythm-Action Game - Master the Elements">
+  <meta property="og:description" content="A rhythm-action game where your timing is your power. Tap to the beat, fight elemental bosses, and ascend through 50 handcrafted levels across 5 mystical realms. Free on iOS.">
+  <meta property="og:image" content="https://www.taphorizon-ascend.com/images/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="TapHorizon: Ascend game logo with elemental realms">
+  <meta property="og:url" content="https://www.taphorizon-ascend.com/">
   <meta property="og:type" content="website">
+  <meta property="og:site_name" content="TapHorizon: Ascend">
+  <meta property="og:locale" content="en_US">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="TapHorizon: Ascend">
-  <meta name="twitter:description" content="Ascend through 5 elemental realms. Master rhythm. Become legendary.">
-  <meta name="twitter:image" content="images/twitter-card.png">
+  <meta name="twitter:title" content="TapHorizon: Ascend | Rhythm-Action Game - Master the Elements">
+  <meta name="twitter:description" content="A rhythm-action game where your timing is your power. Tap to the beat, fight elemental bosses, and ascend through 50 handcrafted levels across 5 mystical realms. Free on iOS.">
+  <meta name="twitter:image" content="https://www.taphorizon-ascend.com/images/og-image.png">
+  <meta name="twitter:image:alt" content="TapHorizon: Ascend game logo with elemental realms">
 
-  <title>TapHorizon: Ascend - Elemental Rhythm Adventure Game</title>
+  <title>TapHorizon: Ascend | Rhythm-Action Game - Master the Elements</title>
 
-  <!-- Fonts - Modern gaming aesthetic -->
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700&display=swap" rel="stylesheet">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
-  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="images/favicon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 
-  <!-- Styles -->
+  <!-- Stylesheet -->
   <link rel="stylesheet" href="styles.css">
+
+  <!-- Preload hero logo for LCP -->
+  <link rel="preload" as="image" href="images/assets/logo.png">
+
+  <!-- Schema.org: SoftwareApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "TapHorizon: Ascend",
+    "operatingSystem": "iOS 16.0+",
+    "applicationCategory": "GameApplication",
+    "applicationSubCategory": "Rhythm",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "description": "A rhythm-action game where your timing is your power. Tap to the beat, fight elemental bosses, and ascend through 50 handcrafted levels across 5 mystical realms.",
+    "author": {
+      "@type": "Organization",
+      "name": "Hermes Horizon Pty Ltd",
+      "url": "https://www.taphorizon-ascend.com"
+    },
+    "url": "https://www.taphorizon-ascend.com",
+    "downloadUrl": "https://apps.apple.com/app/id6754547285",
+    "screenshot": "https://www.taphorizon-ascend.com/images/screenshots/realm-earth.png",
+    "image": "https://www.taphorizon-ascend.com/images/assets/logo.png",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "ratingCount": "50",
+      "bestRating": "5"
+    }
+  }
+  </script>
+
+  <!-- Schema.org: WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "TapHorizon: Ascend",
+    "url": "https://www.taphorizon-ascend.com",
+    "description": "Official website for TapHorizon: Ascend, a rhythm-action game for iOS."
+  }
+  </script>
+
+  <!-- TikTok Pixel Code Start -->
+  <script>
+  !function (w, d, t) {
+    w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
+    var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
+    ;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+    ttq.load('D71LVBJC77U8U5QHPEBG');
+    ttq.page();
+  }(window, document, 'ttq');
+  </script>
+  <!-- TikTok Pixel Code End -->
 </head>
 <body>
-  <!-- Navigation -->
+
+  <!-- ============================== -->
+  <!-- NAV                            -->
+  <!-- ============================== -->
   <nav class="nav" id="nav">
-    <div class="nav-container">
-      <a href="#" class="nav-logo">
-        <img src="images/assets/logo.png" alt="TapHorizon Logo" class="logo-img">
-        <span class="logo-text">TapHorizon</span>
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">
+        <img src="images/assets/logo.png" alt="TapHorizon: Ascend" class="nav__logo-img" width="52" height="38">
+        <span class="nav__logo-text">Tap<span>Horizon</span></span>
       </a>
-      <div class="nav-links" id="nav-links">
-        <a href="#features">Features</a>
-        <a href="#realms">Realms</a>
-        <a href="#gameplay">Gameplay</a>
-        <a href="#skins">Skins</a>
-        <a href="#pricing">Premium</a>
-      </div>
-      <a href="#download" class="nav-cta">Download Free</a>
-      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
-        <span></span>
-        <span></span>
-        <span></span>
+      <button class="nav__hamburger" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="nav__hamburger-line"></span>
+        <span class="nav__hamburger-line"></span>
+        <span class="nav__hamburger-line"></span>
       </button>
+      <div class="nav__links" id="nav-links">
+        <a href="#realms" class="nav__link">Realms</a>
+        <a href="#gameplay" class="nav__link">Gameplay</a>
+        <a href="#characters" class="nav__link">Skins</a>
+        <a href="#download" class="nav__link">Download</a>
+      </div>
     </div>
   </nav>
 
-  <!-- Hero Section - Centered layout with prominent logo -->
+  <!-- Mobile menu overlay -->
+  <div class="nav__mobile-overlay" id="nav-overlay">
+    <a href="#realms" class="nav__link">Realms</a>
+    <a href="#gameplay" class="nav__link">Gameplay</a>
+    <a href="#characters" class="nav__link">Skins</a>
+    <a href="#download" class="nav__cta">Download</a>
+  </div>
+
+  <!-- ============================== -->
+  <!-- HERO                           -->
+  <!-- ============================== -->
   <header class="hero" id="hero">
-    <div class="hero-bg">
-      <div class="stars"></div>
-      <div class="nebula"></div>
-      <div class="particles" id="particles"></div>
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="hero__particles" id="hero-particles" aria-hidden="true"></div>
+
+    <div class="hero__content">
+      <div class="hero__text">
+        <img src="images/assets/logo.png" alt="TapHorizon: Ascend logo" class="hero__logo" width="1024" height="747">
+        <h1 class="hero__tagline">Master the Elements. Conquer the Beat.</h1>
+        <p class="hero__subtitle">A rhythm-action game where your timing is your power. Tap to the beat, fight elemental bosses, and ascend through 5 mystical realms.</p>
+        <div class="hero__cta">
+          <a href="https://apps.apple.com/app/id6754547285" target="_blank" rel="noopener noreferrer">
+            <img src="images/assets/app-store-badge.svg" alt="Download on the App Store" class="hero__store-badge" width="180" height="60">
+          </a>
+          <p class="hero__free-note">Free to play. No credit card required.</p>
+        </div>
+      </div>
+      <div class="hero__phone-mockup">
+        <video autoplay muted loop playsinline class="hero__video">
+          <source src="images/app_preview_6.7inch_resized.mp4" type="video/mp4">
+        </video>
+      </div>
     </div>
 
-    <div class="hero-centered">
-      <!-- Prominent Logo with Glow -->
-      <div class="hero-logo">
-        <img src="images/assets/logo.png" alt="TapHorizon: Ascend" class="logo-hero">
-        <div class="logo-glow"></div>
-      </div>
-
-      <!-- Tagline -->
-      <p class="hero-tagline">Master Rhythm. Conquer Elements. Ascend.</p>
-
-      <!-- Floating Yogi Character -->
-      <div class="hero-character">
-        <img src="images/characters/celestial.png" alt="Celestial Yogi" class="floating-yogi">
-      </div>
-
-      <!-- Stats Row -->
-      <div class="hero-stats">
-        <div class="stat">
-          <span class="stat-number">50</span>
-          <span class="stat-label">Levels</span>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat">
-          <span class="stat-number">5</span>
-          <span class="stat-label">Realms</span>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat">
-          <span class="stat-number">25</span>
-          <span class="stat-label">Skins</span>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat">
-          <span class="stat-number">∞</span>
-          <span class="stat-label">Endless</span>
-        </div>
-      </div>
-
-      <!-- CTA Buttons -->
-      <div class="hero-cta">
-        <a href="#download" class="btn btn-primary btn-large">
-          <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
-          </svg>
-          Download Free on App Store
-        </a>
-      </div>
-
-      <p class="hero-note">Free to play. No ads in gameplay. No pay-to-win.</p>
+    <div class="hero__scroll-indicator" aria-hidden="true">
+      <span class="hero__scroll-text">Explore</span>
+      <span class="hero__scroll-chevron"></span>
     </div>
   </header>
 
-  <!-- Trust Badges -->
-  <section class="trust-badges">
-    <div class="container">
-      <div class="badges-grid">
-        <div class="badge-item">
-          <span class="badge-icon-large">&#9733;</span>
-          <span>Featured on App Store</span>
-        </div>
-        <div class="badge-item">
-          <span class="badge-icon-large">&#9834;</span>
-          <span>Original Soundtrack</span>
-        </div>
-        <div class="badge-item">
-          <span class="badge-icon-large">&#9889;</span>
-          <span>60 FPS Gameplay</span>
-        </div>
-        <div class="badge-item">
-          <span class="badge-icon-large">&#10084;</span>
-          <span>No Pay-to-Win</span>
+  <main>
+
+    <!-- ============================== -->
+    <!-- ABOUT - WHAT IS TAPHORIZON?    -->
+    <!-- ============================== -->
+    <section class="about" id="about">
+      <div class="about__content">
+        <h2 class="about__heading">Tap to the Beat. Fight Elemental Bosses. Ascend.</h2>
+        <div class="about__text">
+          <p>TapHorizon: Ascend is a <span class="text-highlight">rhythm-action game</span> built for players who love the rush of nailing every beat. Notes fall down tap lanes in time with the music -- hit them with precision to <span class="text-highlight">build combos</span>, rack up points, and <span class="text-highlight">unleash elemental powers</span>.</p>
+          <p>Five elemental realms, each with its own <span class="text-highlight">original soundtrack</span> and visual style. From chill <span class="text-highlight">80 BPM</span> grooves in the Earth Realm to relentless <span class="text-highlight">140 BPM</span> onslaughts in the Celestial Realm. Patterns grow more complex as you ascend.</p>
+          <p>Chain perfect hits to build <span class="text-highlight">multipliers up to 5x</span>, then face <span class="text-highlight">epic boss battles</span> at the end of each realm. Defeat all five guardians across <span class="text-highlight">50 handcrafted levels</span> to reach full ascension.</p>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- How It Works -->
-  <section class="section how-it-works" id="features">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-label">How It Works</span>
-        <h2 class="section-title">Master the Art of Elemental Rhythm</h2>
-        <p class="section-description">
-          Combine precision timing with breathwork-inspired combat to ascend through five mystical realms.
-        </p>
-      </div>
-      <div class="steps-grid">
-        <div class="step-card">
-          <div class="step-number">01</div>
-          <div class="step-icon step-icon-earth">
-            <!-- PLACEHOLDER: Earth element icon -->
-            <img src="images/assets/icon-earth.png" alt="Earth Element">
+      <div class="about__gallery">
+        <div class="about__gallery-track">
+          <div class="about__phone">
+            <img src="images/screenshots/app-store/web_screenshot_3.jpg" alt="Main menu showing Daily Challenge" width="460" height="996" loading="lazy">
+            <p class="about__phone-caption">Your Journey Awaits</p>
           </div>
-          <h3>Tap to the Beat</h3>
-          <p>Notes flow down the rhythm highway. Tap with precision to destroy elemental enemies and build your combo.</p>
-        </div>
-        <div class="step-card">
-          <div class="step-number">02</div>
-          <div class="step-icon step-icon-fire">
-            <!-- PLACEHOLDER: Fire element icon -->
-            <img src="images/assets/icon-fire.png" alt="Fire Element">
+          <div class="about__phone">
+            <img src="images/screenshots/app-store/web_earth_boss.jpg" alt="Stone Guardian boss fight in Earth Realm" width="460" height="996" loading="lazy">
+            <p class="about__phone-caption">Stone Guardian Boss</p>
           </div>
-          <h3>Hold for Power</h3>
-          <p>Sustained notes require you to hold and channel your breath. Watch the particle trail and release at the perfect moment.</p>
-        </div>
-        <div class="step-card">
-          <div class="step-number">03</div>
-          <div class="step-icon step-icon-water">
-            <!-- PLACEHOLDER: Water element icon -->
-            <img src="images/assets/icon-water.png" alt="Water Element">
+          <div class="about__phone">
+            <img src="images/screenshots/app-store/web_screenshot_1.jpg" alt="Boss battle in Water Realm" width="460" height="996" loading="lazy">
+            <p class="about__phone-caption">Tidal Monarch Boss</p>
           </div>
-          <h3>Defeat Bosses</h3>
-          <p>Each realm culminates in an epic boss battle. Learn their patterns, absorb their power, and ascend to the next realm.</p>
-        </div>
-        <div class="step-card">
-          <div class="step-number">04</div>
-          <div class="step-icon step-icon-celestial">
-            <!-- PLACEHOLDER: Celestial element icon -->
-            <img src="images/assets/icon-celestial.png" alt="Celestial Element">
+          <div class="about__phone">
+            <img src="images/screenshots/app-store/web_fire_gameplay.jpg" alt="Fire Realm gameplay with falling fire notes" width="460" height="996" loading="lazy">
+            <p class="about__phone-caption">Fire Realm Action</p>
           </div>
-          <h3>Transcend</h3>
-          <p>Unlock all five breath powers, collect legendary skins, and prove your mastery in infinite Endless Mode.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- The Five Realms -->
-  <section class="section realms-section" id="realms">
-    <div class="realms-bg">
-      <div class="realm-particles"></div>
-    </div>
-    <div class="container">
-      <div class="section-header">
-        <span class="section-label">The Journey</span>
-        <h2 class="section-title">Five Elemental Realms Await</h2>
-        <p class="section-description">
-          Each realm brings unique challenges, enemies, and breath powers to master.
-        </p>
-      </div>
-      <div class="realms-grid">
-        <!-- Earth Realm -->
-        <div class="realm-card realm-earth">
-          <div class="realm-bg-image">
-            <!-- PLACEHOLDER: Earth realm background -->
-            <img src="images/screenshots/realm-earth.png" alt="Earth Realm">
+          <div class="about__phone">
+            <img src="images/screenshots/app-store/web_screenshot_4.jpg" alt="Earth Realm gameplay with 5x combo" width="460" height="996" loading="lazy">
+            <p class="about__phone-caption">Chain Massive Combos</p>
           </div>
-          <div class="realm-content">
-            <div class="realm-icon">
-              <!-- PLACEHOLDER: Earth icon -->
-              <img src="images/assets/power-stone.png" alt="Stone Breath">
-            </div>
-            <h3 class="realm-name">Earth Realm</h3>
-            <div class="realm-stats">
-              <span class="realm-levels">Levels 1-10</span>
-              <span class="realm-bpm">BPM 80-90</span>
-            </div>
-            <p class="realm-description">Begin your journey grounded in stone. Master the fundamentals as you face falling boulders and ancient rock guardians.</p>
-            <div class="realm-power">
-              <span class="power-label">Unlocks:</span>
-              <span class="power-name">Stone Breath</span>
-            </div>
-            <div class="realm-boss">
-              <span class="boss-label">Boss:</span>
-              <span class="boss-name">Earth Guardian</span>
-            </div>
+          <div class="about__phone">
+            <img src="images/screenshots/app-store/web_celestial_boss.jpg" alt="Cosmic Archon boss fight in Celestial Realm" width="460" height="996" loading="lazy">
+            <p class="about__phone-caption">Cosmic Archon Boss</p>
           </div>
-        </div>
-
-        <!-- Air Realm -->
-        <div class="realm-card realm-air">
-          <div class="realm-bg-image">
-            <!-- PLACEHOLDER: Air realm background -->
-            <img src="images/screenshots/realm-air.png" alt="Air Realm">
+          <div class="about__phone">
+            <img src="images/screenshots/app-store/web_screenshot_2.jpg" alt="Rhythm tap lanes in Air Realm" width="460" height="996" loading="lazy">
+            <p class="about__phone-caption">Rhythm Tap Lanes</p>
           </div>
-          <div class="realm-content">
-            <div class="realm-icon">
-              <!-- PLACEHOLDER: Air icon -->
-              <img src="images/assets/power-gale.png" alt="Gale Breath">
-            </div>
-            <h3 class="realm-name">Air Realm</h3>
-            <div class="realm-stats">
-              <span class="realm-levels">Levels 11-20</span>
-              <span class="realm-bpm">BPM 70-80</span>
-            </div>
-            <p class="realm-description">Ascend into ethereal skies. Float through wind spirits and tornado columns in a meditative dance of precision.</p>
-            <div class="realm-power">
-              <span class="power-label">Unlocks:</span>
-              <span class="power-name">Gale Breath</span>
-            </div>
-            <div class="realm-boss">
-              <span class="boss-label">Boss:</span>
-              <span class="boss-name">Celestial Angel</span>
-            </div>
+          <!-- Duplicated for seamless infinite scroll -->
+          <div class="about__phone" aria-hidden="true">
+            <img src="images/screenshots/app-store/web_screenshot_3.jpg" alt="" width="460" height="996" loading="lazy">
+            <p class="about__phone-caption">Your Journey Awaits</p>
           </div>
-        </div>
-
-        <!-- Fire Realm -->
-        <div class="realm-card realm-fire">
-          <div class="realm-bg-image">
-            <!-- PLACEHOLDER: Fire realm background -->
-            <img src="images/screenshots/realm-fire.png" alt="Fire Realm">
+          <div class="about__phone" aria-hidden="true">
+            <img src="images/screenshots/app-store/web_earth_boss.jpg" alt="" width="460" height="996" loading="lazy">
+            <p class="about__phone-caption">Stone Guardian Boss</p>
           </div>
-          <div class="realm-content">
-            <div class="realm-icon">
-              <!-- PLACEHOLDER: Fire icon -->
-              <img src="images/assets/power-inferno.png" alt="Flame Breath">
-            </div>
-            <h3 class="realm-name">Fire Realm</h3>
-            <div class="realm-stats">
-              <span class="realm-levels">Levels 21-30</span>
-              <span class="realm-bpm">BPM 120-140</span>
-            </div>
-            <p class="realm-description">The tempo ignites. Battle through embers and flame walls at blistering speeds that will test your reflexes.</p>
-            <div class="realm-power">
-              <span class="power-label">Unlocks:</span>
-              <span class="power-name">Flame Breath</span>
-            </div>
-            <div class="realm-boss">
-              <span class="boss-label">Boss:</span>
-              <span class="boss-name">Fire Demon</span>
-            </div>
+          <div class="about__phone" aria-hidden="true">
+            <img src="images/screenshots/app-store/web_screenshot_1.jpg" alt="" width="460" height="996" loading="lazy">
+            <p class="about__phone-caption">Tidal Monarch Boss</p>
           </div>
-        </div>
-
-        <!-- Water Realm -->
-        <div class="realm-card realm-water">
-          <div class="realm-bg-image">
-            <!-- PLACEHOLDER: Water realm background -->
-            <img src="images/screenshots/realm-water.png" alt="Water Realm">
+          <div class="about__phone" aria-hidden="true">
+            <img src="images/screenshots/app-store/web_fire_gameplay.jpg" alt="" width="460" height="996" loading="lazy">
+            <p class="about__phone-caption">Fire Realm Action</p>
           </div>
-          <div class="realm-content">
-            <div class="realm-icon">
-              <!-- PLACEHOLDER: Water icon -->
-              <img src="images/assets/power-tidal.png" alt="Tidal Breath">
-            </div>
-            <h3 class="realm-name">Water Realm</h3>
-            <div class="realm-stats">
-              <span class="realm-levels">Levels 31-40</span>
-              <span class="realm-bpm">BPM 60-70</span>
-            </div>
-            <p class="realm-description">Dive into mysterious depths. Master syncopated rhythms as you navigate tidal waves and void currents.</p>
-            <div class="realm-power">
-              <span class="power-label">Unlocks:</span>
-              <span class="power-name">Tidal Breath</span>
-            </div>
-            <div class="realm-boss">
-              <span class="boss-label">Boss:</span>
-              <span class="boss-name">Void Entity</span>
-            </div>
+          <div class="about__phone" aria-hidden="true">
+            <img src="images/screenshots/app-store/web_screenshot_4.jpg" alt="" width="460" height="996" loading="lazy">
+            <p class="about__phone-caption">Chain Massive Combos</p>
           </div>
-        </div>
-
-        <!-- Celestial Realm -->
-        <div class="realm-card realm-celestial">
-          <div class="realm-bg-image">
-            <!-- PLACEHOLDER: Celestial realm background -->
-            <img src="images/screenshots/realm-celestial.png" alt="Celestial Realm">
+          <div class="about__phone" aria-hidden="true">
+            <img src="images/screenshots/app-store/web_celestial_boss.jpg" alt="" width="460" height="996" loading="lazy">
+            <p class="about__phone-caption">Cosmic Archon Boss</p>
           </div>
-          <div class="realm-content">
-            <div class="realm-icon">
-              <!-- PLACEHOLDER: Celestial icon -->
-              <img src="images/assets/power-transcendent.png" alt="Transcendent Breath">
-            </div>
-            <h3 class="realm-name">Celestial Realm</h3>
-            <div class="realm-stats">
-              <span class="realm-levels">Levels 41-50</span>
-              <span class="realm-bpm">BPM 100-120</span>
-            </div>
-            <p class="realm-description">The ultimate challenge. All elements combine in a triumphant symphony of color, light, and cosmic energy.</p>
-            <div class="realm-power">
-              <span class="power-label">Unlocks:</span>
-              <span class="power-name">Transcendent Breath</span>
-            </div>
-            <div class="realm-boss">
-              <span class="boss-label">Boss:</span>
-              <span class="boss-name">Cosmic Being</span>
-            </div>
+          <div class="about__phone" aria-hidden="true">
+            <img src="images/screenshots/app-store/web_screenshot_2.jpg" alt="" width="460" height="996" loading="lazy">
+            <p class="about__phone-caption">Rhythm Tap Lanes</p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Gameplay Features -->
-  <section class="section gameplay-section" id="gameplay">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-label">Core Gameplay</span>
-        <h2 class="section-title">Two Ways to Play</h2>
-        <p class="section-description">
-          Master the story in Journey Mode or test your limits in Endless Mode.
-        </p>
+    <!-- ============================== -->
+    <!-- FIVE REALMS                    -->
+    <!-- ============================== -->
+    <section class="realms" id="realms">
+      <div class="realms__header">
+        <h2 class="realms__heading">Five Elemental Realms</h2>
+        <p class="realms__subheading">Journey from grounded earth to celestial transcendence. Each realm brings new music, new enemies, and an epic boss fight.</p>
       </div>
 
-      <div class="gameplay-modes">
-        <!-- Journey Mode -->
-        <div class="mode-card mode-journey">
-          <div class="mode-visual">
-            <!-- PLACEHOLDER: Journey mode screenshot -->
-            <img src="images/screenshots/realm-earth.png" alt="Journey Mode">
-            <div class="mode-overlay"></div>
-          </div>
-          <div class="mode-content">
-            <div class="mode-badge">Story Mode</div>
-            <h3 class="mode-title">Journey Mode</h3>
-            <p class="mode-description">
-              Experience the full narrative as you ascend from mortal to cosmic master.
-              50 handcrafted levels across 5 realms, each with increasing complexity and beauty.
-            </p>
-            <ul class="mode-features">
-              <li>
-                <span class="feature-check">&#10003;</span>
-                <span>50 unique levels with progressive difficulty</span>
-              </li>
-              <li>
-                <span class="feature-check">&#10003;</span>
-                <span>5 epic boss battles with signature patterns</span>
-              </li>
-              <li>
-                <span class="feature-check">&#10003;</span>
-                <span>Unlock breath powers and character evolutions</span>
-              </li>
-              <li>
-                <span class="feature-check">&#10003;</span>
-                <span>Star rating system (1-3 stars per level)</span>
-              </li>
-              <li>
-                <span class="feature-check">&#10003;</span>
-                <span>BPM range: 60-140 (meditative to intense)</span>
-              </li>
-            </ul>
-          </div>
+      <div class="realms__grid">
+        <div class="realm-card" data-realm="earth">
+          <img src="images/screenshots/realm-earth.png" alt="Earth Realm" class="realm-card__bg" width="2340" height="3120" loading="lazy">
+          <div class="realm-card__overlay"></div>
+          <img src="images/assets/icon-earth.png" alt="" class="realm-card__icon" width="64" height="64" loading="lazy">
+          <h3 class="realm-card__name">Earth</h3>
+          <p class="realm-card__boss">Stone Guardian</p>
+          <p class="realm-card__description">Where your journey begins. Grounded beats at 80 BPM ease you into the rhythm.</p>
         </div>
 
-        <!-- Endless Mode -->
-        <div class="mode-card mode-endless">
-          <div class="mode-visual">
-            <!-- PLACEHOLDER: Endless mode screenshot -->
-            <img src="images/screenshots/realm-celestial.png" alt="Endless Mode">
-            <div class="mode-overlay"></div>
-          </div>
-          <div class="mode-content">
-            <div class="mode-badge mode-badge-gold">High Score</div>
-            <h3 class="mode-title">Endless Mode</h3>
-            <p class="mode-description">
-              Five elemental variants for infinite replayability. No energy cost,
-              just pure skill expression. How long can you survive?
-            </p>
-            <ul class="mode-features">
-              <li>
-                <span class="feature-check">&#10003;</span>
-                <span>5 variants: Earth, Air, Fire, Water, Celestial</span>
-              </li>
-              <li>
-                <span class="feature-check">&#10003;</span>
-                <span>Progressive difficulty (BPM increases every 30s)</span>
-              </li>
-              <li>
-                <span class="feature-check">&#10003;</span>
-                <span>Unlimited play with no energy cost</span>
-              </li>
-              <li>
-                <span class="feature-check">&#10003;</span>
-                <span>Personal leaderboards</span>
-              </li>
-              <li>
-                <span class="feature-check">&#10003;</span>
-                <span>GameCenter integration</span>
-              </li>
-            </ul>
-          </div>
+        <div class="realm-card" data-realm="air">
+          <img src="images/screenshots/realm-air.png" alt="Air Realm" class="realm-card__bg" width="2340" height="3120" loading="lazy">
+          <div class="realm-card__overlay"></div>
+          <img src="images/assets/icon-air.png" alt="" class="realm-card__icon" width="64" height="64" loading="lazy">
+          <h3 class="realm-card__name">Air</h3>
+          <p class="realm-card__boss">Storm Warden</p>
+          <p class="realm-card__description">Rising tempo and floating patterns. The beat lifts you through towering clouds.</p>
+        </div>
+
+        <div class="realm-card" data-realm="fire">
+          <img src="images/screenshots/realm-fire.png" alt="Fire Realm" class="realm-card__bg" width="2340" height="3120" loading="lazy">
+          <div class="realm-card__overlay"></div>
+          <img src="images/assets/icon-fire.png" alt="" class="realm-card__icon" width="64" height="64" loading="lazy">
+          <h3 class="realm-card__name">Fire</h3>
+          <p class="realm-card__boss">Flame Sovereign</p>
+          <p class="realm-card__description">Intense 120 BPM tracks. Fast patterns test your reflexes as flames rage.</p>
+        </div>
+
+        <div class="realm-card" data-realm="water">
+          <img src="images/screenshots/realm-water.png" alt="Water Realm" class="realm-card__bg" width="2340" height="3120" loading="lazy">
+          <div class="realm-card__overlay"></div>
+          <img src="images/assets/icon-water.png" alt="" class="realm-card__icon" width="64" height="64" loading="lazy">
+          <h3 class="realm-card__name">Water</h3>
+          <p class="realm-card__boss">Tidal Monarch</p>
+          <p class="realm-card__description">Deep syncopated rhythms. Flowing patterns that shift and surprise.</p>
+        </div>
+
+        <div class="realm-card" data-realm="celestial">
+          <img src="images/screenshots/realm-celestial.png" alt="Celestial Realm" class="realm-card__bg" width="2340" height="3120" loading="lazy">
+          <div class="realm-card__overlay"></div>
+          <img src="images/assets/icon-celestial.png" alt="" class="realm-card__icon" width="64" height="64" loading="lazy">
+          <h3 class="realm-card__name">Celestial</h3>
+          <p class="realm-card__boss">Cosmic Archon</p>
+          <p class="realm-card__description">140 BPM. All elements collide. Only the most skilled reach transcendence.</p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Visual Polish Section -->
-  <section class="section polish-section">
-    <div class="container">
-      <div class="polish-grid">
-        <div class="polish-content">
-          <span class="section-label">Crafted with Care</span>
-          <h2 class="section-title">Every Frame is Art</h2>
-          <p class="section-description">
-            Inspired by award-winning indie games like Prune and Alto's Adventure,
-            TapHorizon features an organic minimalist aesthetic that makes every moment
-            screenshot-worthy.
-          </p>
-          <div class="polish-features">
-            <div class="polish-feature">
-              <div class="polish-icon">&#10024;</div>
-              <div>
-                <h4>1200+ Particles</h4>
-                <p>Smooth 60fps particle effects that react to your gameplay</p>
-              </div>
-            </div>
-            <div class="polish-feature">
-              <div class="polish-icon">&#127912;</div>
-              <div>
-                <h4>Parallax Backgrounds</h4>
-                <p>3-layer depth with cosmic gradients and organic shapes</p>
-              </div>
-            </div>
-            <div class="polish-feature">
-              <div class="polish-icon">&#128171;</div>
-              <div>
-                <h4>Haptic Feedback</h4>
-                <p>Feel every perfect hit with responsive haptics</p>
-              </div>
-            </div>
-            <div class="polish-feature">
-              <div class="polish-icon">&#127926;</div>
-              <div>
-                <h4>Original Soundtrack</h4>
-                <p>Realm-specific music that evolves with your journey</p>
-              </div>
-            </div>
+    <!-- ============================== -->
+    <!-- BOSS BATTLES                   -->
+    <!-- ============================== -->
+    <section class="bosses" id="bosses">
+      <div class="bosses__header">
+        <h2 class="bosses__heading">Epic Boss Battles</h2>
+        <p class="bosses__subheading">Five elemental guardians stand between you and ascension. Break their shields with perfect timing and absorb their elemental powers.</p>
+      </div>
+
+      <div class="bosses__grid">
+        <div class="boss-card" data-realm="earth">
+          <div class="boss-card__image-wrapper">
+            <img src="images/assets/boss-earth.png" alt="Stone Guardian boss" class="boss-card__image" width="512" height="512" loading="lazy">
+          </div>
+          <h3 class="boss-card__name">Stone Guardian</h3>
+          <p class="boss-card__realm">Earth Realm</p>
+        </div>
+        <div class="boss-card" data-realm="air">
+          <div class="boss-card__image-wrapper">
+            <img src="images/assets/boss-air.png" alt="Storm Warden boss" class="boss-card__image" width="512" height="512" loading="lazy">
+          </div>
+          <h3 class="boss-card__name">Storm Warden</h3>
+          <p class="boss-card__realm">Air Realm</p>
+        </div>
+        <div class="boss-card" data-realm="fire">
+          <div class="boss-card__image-wrapper">
+            <img src="images/assets/boss-fire.png" alt="Flame Sovereign boss" class="boss-card__image" width="512" height="512" loading="lazy">
+          </div>
+          <h3 class="boss-card__name">Flame Sovereign</h3>
+          <p class="boss-card__realm">Fire Realm</p>
+        </div>
+        <div class="boss-card" data-realm="water">
+          <div class="boss-card__image-wrapper">
+            <img src="images/assets/boss-water.png" alt="Tidal Monarch boss" class="boss-card__image" width="512" height="512" loading="lazy">
+          </div>
+          <h3 class="boss-card__name">Tidal Monarch</h3>
+          <p class="boss-card__realm">Water Realm</p>
+        </div>
+        <div class="boss-card" data-realm="celestial">
+          <div class="boss-card__image-wrapper">
+            <img src="images/assets/boss-celestial.png" alt="Cosmic Archon boss" class="boss-card__image" width="512" height="512" loading="lazy">
+          </div>
+          <h3 class="boss-card__name">Cosmic Archon</h3>
+          <p class="boss-card__realm">Celestial Realm</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== -->
+    <!-- GAME MODES                     -->
+    <!-- ============================== -->
+    <section class="gameplay" id="gameplay">
+      <div class="gameplay__header">
+        <h2 class="gameplay__heading">Three Ways to Play</h2>
+      </div>
+      <div class="gameplay__grid">
+        <div class="gameplay__card">
+          <div class="gameplay__card-bg">
+            <img src="images/screenshots/realm-earth.png" alt="Journey Mode" width="2340" height="3120" loading="lazy">
+          </div>
+          <div class="gameplay__card-overlay"></div>
+          <div class="gameplay__card-content">
+            <p class="gameplay__card-label">Story Mode</p>
+            <h3 class="gameplay__card-title">Journey Mode</h3>
+            <p class="gameplay__card-description">Ascend through 50 handcrafted levels across 5 elemental realms. Master progressively complex patterns, defeat powerful bosses, and unlock new worlds. Your skills grow with every beat.</p>
           </div>
         </div>
-        <div class="polish-visual">
-          <div class="polish-gallery">
-            <div class="gallery-item gallery-main">
-              <img src="images/screenshots/realm-celestial.png" alt="Celestial Realm">
-            </div>
-            <div class="gallery-item gallery-small-1">
-              <img src="images/characters/void_mystic.png" alt="Void Mystic">
-            </div>
-            <div class="gallery-item gallery-small-2">
-              <img src="images/characters/eternal_flame.png" alt="Eternal Flame">
-            </div>
+        <div class="gameplay__card">
+          <div class="gameplay__card-bg">
+            <img src="images/screenshots/realm-celestial.png" alt="Endless Mode" width="2340" height="3120" loading="lazy">
+          </div>
+          <div class="gameplay__card-overlay"></div>
+          <div class="gameplay__card-content">
+            <p class="gameplay__card-label">Infinite Challenge</p>
+            <h3 class="gameplay__card-title">Endless Mode</h3>
+            <p class="gameplay__card-description">Push beyond the journey into an ever-shifting rhythmic challenge. Patterns evolve, tempos shift. Climb the global leaderboards and prove your mastery across all 5 realm variants.</p>
+          </div>
+        </div>
+        <div class="gameplay__card">
+          <div class="gameplay__card-bg">
+            <img src="images/screenshots/realm-fire.png" alt="Daily Challenges" width="2340" height="3120" loading="lazy">
+          </div>
+          <div class="gameplay__card-overlay"></div>
+          <div class="gameplay__card-content">
+            <p class="gameplay__card-label">Compete Daily</p>
+            <h3 class="gameplay__card-title">Daily Challenges</h3>
+            <p class="gameplay__card-description">A unique rhythm level every single day. Compete against players worldwide for the best rank. Track your streak, earn rewards, and never play the same challenge twice.</p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Skins Showcase - Full Character Portraits -->
-  <section class="section skins-section" id="skins">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-label">Customize Your Yogi</span>
-        <h2 class="section-title">25 Unique Character Skins</h2>
-        <p class="section-description">
-          Express yourself with stunning yogi transformations.
-          Unlock through gameplay progression or acquire premium designs.
-        </p>
+    <!-- ============================== -->
+    <!-- FEATURES GRID                  -->
+    <!-- ============================== -->
+    <section class="features" id="features">
+      <h2 class="features__heading">Packed with Features</h2>
+      <div class="features__grid">
+        <div class="feature-card">
+          <h3 class="feature-card__title">50 Levels</h3>
+          <p class="feature-card__description">Handcrafted rhythm levels across five elemental realms</p>
+        </div>
+        <div class="feature-card">
+          <h3 class="feature-card__title">5 Boss Battles</h3>
+          <p class="feature-card__description">Unique boss mechanics that test every skill you have learned</p>
+        </div>
+        <div class="feature-card">
+          <h3 class="feature-card__title">Daily Challenges</h3>
+          <p class="feature-card__description">A new challenge every day with worldwide competition</p>
+        </div>
+        <div class="feature-card">
+          <h3 class="feature-card__title">40+ Achievements</h3>
+          <p class="feature-card__description">Track your journey from First Steps to Completionist</p>
+        </div>
+        <div class="feature-card">
+          <h3 class="feature-card__title">25 Character Skins</h3>
+          <p class="feature-card__description">Collect and customize your yogi with unique designs</p>
+        </div>
+        <div class="feature-card">
+          <h3 class="feature-card__title">Global Leaderboards</h3>
+          <p class="feature-card__description">Compete with players worldwide in Endless and Daily modes</p>
+        </div>
+        <div class="feature-card">
+          <h3 class="feature-card__title">iCloud Sync</h3>
+          <p class="feature-card__description">Your progress follows you across all your devices</p>
+        </div>
+        <div class="feature-card">
+          <h3 class="feature-card__title">Daily Rewards</h3>
+          <p class="feature-card__description">Log in daily for stars, energy, and exclusive bonuses</p>
+        </div>
       </div>
+    </section>
 
-      <!-- Featured Characters Showcase -->
-      <div class="skins-featured">
-        <div class="featured-character featured-main">
-          <img src="images/characters/cosmic_ascendant.png" alt="Cosmic Ascendant">
-          <div class="featured-info">
-            <span class="featured-badge">Subscriber Exclusive</span>
-            <h4>Cosmic Ascendant</h4>
-          </div>
-        </div>
-        <div class="featured-character featured-side">
-          <img src="images/characters/golden_emperor.png" alt="Golden Emperor">
-          <div class="featured-info">
-            <span class="featured-badge featured-badge-premium">Premium</span>
-            <h4>Golden Emperor</h4>
-          </div>
-        </div>
-        <div class="featured-character featured-side">
-          <img src="images/characters/phoenix_master.png" alt="Phoenix Master">
-          <div class="featured-info">
-            <span class="featured-badge featured-badge-premium">Premium</span>
-            <h4>Phoenix Master</h4>
-          </div>
-        </div>
+    <!-- ============================== -->
+    <!-- CHARACTER SKINS                -->
+    <!-- ============================== -->
+    <section class="characters" id="characters">
+      <div class="characters__header">
+        <h2 class="characters__heading">25 Unique Character Skins</h2>
+        <p class="characters__subheading">Collect stunning character designs. Unlock through gameplay or grab premium exclusives.</p>
       </div>
-
-      <!-- Realm Progression Skins -->
-      <div class="skins-category">
-        <h3 class="category-title">
-          <span class="category-icon">&#9733;</span>
-          Realm Progression
-          <span class="category-badge">Unlock by Playing</span>
-        </h3>
-        <div class="skins-gallery">
-          <div class="character-card">
-            <div class="character-image character-earth">
-              <img src="images/characters/earth.png" alt="Earth Adept">
+      <div class="characters__scroll character-carousel" id="skin-carousel">
+        <div class="characters__scroll-track">
+          <div class="character-card character-card--celestial">
+            <div class="character-card__image-wrapper">
+              <img src="images/characters/cosmic_ascendant.png" alt="Cosmic Ascendant character skin" class="character-card__image" width="512" height="512" loading="lazy">
             </div>
-            <div class="character-info">
-              <span class="character-name">Earth Adept</span>
-              <span class="character-unlock">Complete Earth Realm</span>
+            <div class="character-card__info">
+              <p class="character-card__name">Cosmic Ascendant</p>
+              <p class="character-card__realm">Celestial</p>
             </div>
           </div>
-          <div class="character-card">
-            <div class="character-image character-air">
-              <img src="images/characters/air.png" alt="Air Ascetic">
+          <div class="character-card character-card--fire">
+            <div class="character-card__image-wrapper">
+              <img src="images/characters/dragon_sage.png" alt="Dragon Sage character skin" class="character-card__image" width="512" height="512" loading="lazy">
             </div>
-            <div class="character-info">
-              <span class="character-name">Air Ascetic</span>
-              <span class="character-unlock">Complete Air Realm</span>
-            </div>
-          </div>
-          <div class="character-card">
-            <div class="character-image character-fire">
-              <img src="images/characters/fire.png" alt="Flame Warden">
-            </div>
-            <div class="character-info">
-              <span class="character-name">Flame Warden</span>
-              <span class="character-unlock">Complete Fire Realm</span>
+            <div class="character-card__info">
+              <p class="character-card__name">Dragon Sage</p>
+              <p class="character-card__realm">Fire</p>
             </div>
           </div>
-          <div class="character-card">
-            <div class="character-image character-water">
-              <img src="images/characters/water.png" alt="Tidal Sage">
+          <div class="character-card character-card--fire">
+            <div class="character-card__image-wrapper">
+              <img src="images/characters/phoenix_master.png" alt="Phoenix Master character skin" class="character-card__image" width="512" height="512" loading="lazy">
             </div>
-            <div class="character-info">
-              <span class="character-name">Tidal Sage</span>
-              <span class="character-unlock">Complete Water Realm</span>
+            <div class="character-card__info">
+              <p class="character-card__name">Phoenix Master</p>
+              <p class="character-card__realm">Fire</p>
             </div>
           </div>
-          <div class="character-card">
-            <div class="character-image character-celestial">
-              <img src="images/characters/celestial.png" alt="Celestial Avatar">
+          <div class="character-card character-card--earth">
+            <div class="character-card__image-wrapper">
+              <img src="images/characters/cherry_blossom.png" alt="Cherry Blossom character skin" class="character-card__image" width="512" height="512" loading="lazy">
             </div>
-            <div class="character-info">
-              <span class="character-name">Celestial Avatar</span>
-              <span class="character-unlock">Complete All Realms</span>
+            <div class="character-card__info">
+              <p class="character-card__name">Cherry Blossom</p>
+              <p class="character-card__realm">Earth</p>
+            </div>
+          </div>
+          <div class="character-card character-card--celestial">
+            <div class="character-card__image-wrapper">
+              <img src="images/characters/void_mystic.png" alt="Void Mystic character skin" class="character-card__image" width="512" height="512" loading="lazy">
+            </div>
+            <div class="character-card__info">
+              <p class="character-card__name">Void Mystic</p>
+              <p class="character-card__realm">Celestial</p>
+            </div>
+          </div>
+          <div class="character-card character-card--earth">
+            <div class="character-card__image-wrapper">
+              <img src="images/characters/golden_emperor.png" alt="Golden Emperor character skin" class="character-card__image" width="512" height="512" loading="lazy">
+            </div>
+            <div class="character-card__info">
+              <p class="character-card__name">Golden Emperor</p>
+              <p class="character-card__realm">Earth</p>
+            </div>
+          </div>
+          <div class="character-card character-card--water">
+            <div class="character-card__image-wrapper">
+              <img src="images/characters/nebula_wanderer.png" alt="Nebula Wanderer character skin" class="character-card__image" width="512" height="512" loading="lazy">
+            </div>
+            <div class="character-card__info">
+              <p class="character-card__name">Nebula Wanderer</p>
+              <p class="character-card__realm">Water</p>
+            </div>
+          </div>
+          <div class="character-card character-card--celestial">
+            <div class="character-card__image-wrapper">
+              <img src="images/characters/shadow_walker.png" alt="Shadow Walker character skin" class="character-card__image" width="512" height="512" loading="lazy">
+            </div>
+            <div class="character-card__info">
+              <p class="character-card__name">Shadow Walker</p>
+              <p class="character-card__realm">Celestial</p>
+            </div>
+          </div>
+          <div class="character-card character-card--water">
+            <div class="character-card__image-wrapper">
+              <img src="images/characters/crystal_oracle.png" alt="Crystal Oracle character skin" class="character-card__image" width="512" height="512" loading="lazy">
+            </div>
+            <div class="character-card__info">
+              <p class="character-card__name">Crystal Oracle</p>
+              <p class="character-card__realm">Water</p>
+            </div>
+          </div>
+          <div class="character-card character-card--air">
+            <div class="character-card__image-wrapper">
+              <img src="images/characters/storm_caller.png" alt="Storm Caller character skin" class="character-card__image" width="512" height="512" loading="lazy">
+            </div>
+            <div class="character-card__info">
+              <p class="character-card__name">Storm Caller</p>
+              <p class="character-card__realm">Air</p>
+            </div>
+          </div>
+          <!-- Duplicated cards for seamless infinite scroll -->
+          <div class="character-card character-card--celestial" aria-hidden="true">
+            <div class="character-card__image-wrapper">
+              <img src="images/characters/cosmic_ascendant.png" alt="" class="character-card__image" width="512" height="512" loading="lazy">
+            </div>
+            <div class="character-card__info">
+              <p class="character-card__name">Cosmic Ascendant</p>
+              <p class="character-card__realm">Celestial</p>
+            </div>
+          </div>
+          <div class="character-card character-card--fire" aria-hidden="true">
+            <div class="character-card__image-wrapper">
+              <img src="images/characters/dragon_sage.png" alt="" class="character-card__image" width="512" height="512" loading="lazy">
+            </div>
+            <div class="character-card__info">
+              <p class="character-card__name">Dragon Sage</p>
+              <p class="character-card__realm">Fire</p>
+            </div>
+          </div>
+          <div class="character-card character-card--fire" aria-hidden="true">
+            <div class="character-card__image-wrapper">
+              <img src="images/characters/phoenix_master.png" alt="" class="character-card__image" width="512" height="512" loading="lazy">
+            </div>
+            <div class="character-card__info">
+              <p class="character-card__name">Phoenix Master</p>
+              <p class="character-card__realm">Fire</p>
+            </div>
+          </div>
+          <div class="character-card character-card--earth" aria-hidden="true">
+            <div class="character-card__image-wrapper">
+              <img src="images/characters/cherry_blossom.png" alt="" class="character-card__image" width="512" height="512" loading="lazy">
+            </div>
+            <div class="character-card__info">
+              <p class="character-card__name">Cherry Blossom</p>
+              <p class="character-card__realm">Earth</p>
+            </div>
+          </div>
+          <div class="character-card character-card--celestial" aria-hidden="true">
+            <div class="character-card__image-wrapper">
+              <img src="images/characters/void_mystic.png" alt="" class="character-card__image" width="512" height="512" loading="lazy">
+            </div>
+            <div class="character-card__info">
+              <p class="character-card__name">Void Mystic</p>
+              <p class="character-card__realm">Celestial</p>
+            </div>
+          </div>
+          <div class="character-card character-card--earth" aria-hidden="true">
+            <div class="character-card__image-wrapper">
+              <img src="images/characters/golden_emperor.png" alt="" class="character-card__image" width="512" height="512" loading="lazy">
+            </div>
+            <div class="character-card__info">
+              <p class="character-card__name">Golden Emperor</p>
+              <p class="character-card__realm">Earth</p>
+            </div>
+          </div>
+          <div class="character-card character-card--water" aria-hidden="true">
+            <div class="character-card__image-wrapper">
+              <img src="images/characters/nebula_wanderer.png" alt="" class="character-card__image" width="512" height="512" loading="lazy">
+            </div>
+            <div class="character-card__info">
+              <p class="character-card__name">Nebula Wanderer</p>
+              <p class="character-card__realm">Water</p>
+            </div>
+          </div>
+          <div class="character-card character-card--celestial" aria-hidden="true">
+            <div class="character-card__image-wrapper">
+              <img src="images/characters/shadow_walker.png" alt="" class="character-card__image" width="512" height="512" loading="lazy">
+            </div>
+            <div class="character-card__info">
+              <p class="character-card__name">Shadow Walker</p>
+              <p class="character-card__realm">Celestial</p>
+            </div>
+          </div>
+          <div class="character-card character-card--water" aria-hidden="true">
+            <div class="character-card__image-wrapper">
+              <img src="images/characters/crystal_oracle.png" alt="" class="character-card__image" width="512" height="512" loading="lazy">
+            </div>
+            <div class="character-card__info">
+              <p class="character-card__name">Crystal Oracle</p>
+              <p class="character-card__realm">Water</p>
+            </div>
+          </div>
+          <div class="character-card character-card--air" aria-hidden="true">
+            <div class="character-card__image-wrapper">
+              <img src="images/characters/storm_caller.png" alt="" class="character-card__image" width="512" height="512" loading="lazy">
+            </div>
+            <div class="character-card__info">
+              <p class="character-card__name">Storm Caller</p>
+              <p class="character-card__realm">Air</p>
             </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- Earnable Skins -->
-      <div class="skins-category">
-        <h3 class="category-title">
-          <span class="category-icon">&#11088;</span>
-          Earnable Characters
-          <span class="category-badge category-badge-free">Buy with Stars</span>
-        </h3>
-        <div class="skins-gallery">
-          <div class="character-card">
-            <div class="character-image">
-              <img src="images/characters/forest_sage.png" alt="Forest Sage">
-            </div>
-            <div class="character-info">
-              <span class="character-name">Forest Sage</span>
-              <span class="character-unlock">500 Stars</span>
-            </div>
-          </div>
-          <div class="character-card">
-            <div class="character-image">
-              <img src="images/characters/desert_nomad.png" alt="Desert Nomad">
-            </div>
-            <div class="character-info">
-              <span class="character-name">Desert Nomad</span>
-              <span class="character-unlock">750 Stars</span>
-            </div>
-          </div>
-          <div class="character-card">
-            <div class="character-image">
-              <img src="images/characters/mountain_monk.png" alt="Mountain Monk">
-            </div>
-            <div class="character-info">
-              <span class="character-name">Mountain Monk</span>
-              <span class="character-unlock">1000 Stars</span>
-            </div>
-          </div>
-          <div class="character-card">
-            <div class="character-image">
-              <img src="images/characters/storm_caller.png" alt="Storm Caller">
-            </div>
-            <div class="character-info">
-              <span class="character-name">Storm Caller</span>
-              <span class="character-unlock">1250 Stars</span>
-            </div>
-          </div>
-          <div class="character-card">
-            <div class="character-image">
-              <img src="images/characters/jade_master.png" alt="Jade Master">
-            </div>
-            <div class="character-info">
-              <span class="character-name">Jade Master</span>
-              <span class="character-unlock">1500 Stars</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Premium Collection -->
-      <div class="skins-category">
-        <h3 class="category-title">
-          <span class="category-icon">&#128142;</span>
-          Premium Collection
-          <span class="category-badge category-badge-premium">$1.99 - $2.99</span>
-        </h3>
-        <div class="skins-gallery skins-gallery-premium">
-          <div class="character-card character-card-premium">
-            <div class="character-image">
-              <img src="images/characters/dragon_sage.png" alt="Dragon Sage">
-            </div>
-            <div class="character-info">
-              <span class="character-name">Dragon Sage</span>
-            </div>
-          </div>
-          <div class="character-card character-card-premium">
-            <div class="character-image">
-              <img src="images/characters/shadow_walker.png" alt="Shadow Walker">
-            </div>
-            <div class="character-info">
-              <span class="character-name">Shadow Walker</span>
-            </div>
-          </div>
-          <div class="character-card character-card-premium">
-            <div class="character-image">
-              <img src="images/characters/void_mystic.png" alt="Void Mystic">
-            </div>
-            <div class="character-info">
-              <span class="character-name">Void Mystic</span>
-            </div>
-          </div>
-          <div class="character-card character-card-premium">
-            <div class="character-image">
-              <img src="images/characters/lunar_priest.png" alt="Lunar Priest">
-            </div>
-            <div class="character-info">
-              <span class="character-name">Lunar Priest</span>
-            </div>
-          </div>
-          <div class="character-card character-card-premium">
-            <div class="character-image">
-              <img src="images/characters/obsidian_knight.png" alt="Obsidian Knight">
-            </div>
-            <div class="character-info">
-              <span class="character-name">Obsidian Knight</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Subscriber Exclusives -->
-      <div class="skins-category">
-        <h3 class="category-title">
-          <span class="category-icon">&#127775;</span>
-          Subscriber Exclusives
-          <span class="category-badge category-badge-subscriber">Premium Members</span>
-        </h3>
-        <div class="skins-gallery">
-          <div class="character-card character-card-subscriber">
-            <div class="character-image">
-              <img src="images/characters/ascended_master.png" alt="Ascended Master">
-            </div>
-            <div class="character-info">
-              <span class="character-name">Ascended Master</span>
-            </div>
-          </div>
-          <div class="character-card character-card-subscriber">
-            <div class="character-image">
-              <img src="images/characters/nebula_wanderer.png" alt="Nebula Wanderer">
-            </div>
-            <div class="character-info">
-              <span class="character-name">Nebula Wanderer</span>
-            </div>
-          </div>
-          <div class="character-card character-card-subscriber">
-            <div class="character-image">
-              <img src="images/characters/crystal_oracle.png" alt="Crystal Oracle">
-            </div>
-            <div class="character-info">
-              <span class="character-name">Crystal Oracle</span>
-            </div>
-          </div>
-          <div class="character-card character-card-subscriber">
-            <div class="character-image">
-              <img src="images/characters/tidal_sovereign.png" alt="Tidal Sovereign">
-            </div>
-            <div class="character-info">
-              <span class="character-name">Tidal Sovereign</span>
-            </div>
-          </div>
-          <div class="character-card character-card-subscriber">
-            <div class="character-image">
-              <img src="images/characters/cherry_blossom.png" alt="Cherry Blossom">
-            </div>
-            <div class="character-info">
-              <span class="character-name">Cherry Blossom</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <p class="skins-total">25 unique character skins to discover and collect</p>
-    </div>
-  </section>
-
-  <!-- Screenshot Gallery -->
-  <section class="section gallery-section">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-label">In-Game Moments</span>
-        <h2 class="section-title">See It In Action</h2>
-        <p class="section-description">
-          Screenshots from actual gameplay across all five elemental realms.
-        </p>
-      </div>
-      <div class="screenshot-gallery">
-        <div class="screenshot-item">
-          <img src="images/screenshots/realm-earth.png" alt="Earth Realm">
-          <span class="screenshot-caption">Earth Realm</span>
-        </div>
-        <div class="screenshot-item">
-          <img src="images/screenshots/realm-air.png" alt="Air Realm">
-          <span class="screenshot-caption">Air Realm</span>
-        </div>
-        <div class="screenshot-item">
-          <img src="images/screenshots/realm-fire.png" alt="Fire Realm">
-          <span class="screenshot-caption">Fire Realm</span>
-        </div>
-        <div class="screenshot-item">
-          <img src="images/screenshots/realm-water.png" alt="Water Realm">
-          <span class="screenshot-caption">Water Realm</span>
-        </div>
-        <div class="screenshot-item">
-          <img src="images/screenshots/realm-celestial.png" alt="Celestial Realm">
-          <span class="screenshot-caption">Celestial Realm</span>
-        </div>
-        <div class="screenshot-item screenshot-item-character">
-          <img src="images/characters/dragon_sage.png" alt="Dragon Sage">
-          <span class="screenshot-caption">Dragon Sage</span>
-        </div>
-        <div class="screenshot-item screenshot-item-character">
-          <img src="images/assets/boss-celestial.png" alt="Cosmic Being">
-          <span class="screenshot-caption">Cosmic Being Boss</span>
-        </div>
-        <div class="screenshot-item screenshot-item-character">
-          <img src="images/characters/phoenix_master.png" alt="Phoenix Master">
-          <span class="screenshot-caption">Phoenix Master</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Pricing / Premium -->
-  <section class="section pricing-section" id="pricing">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-label">Play Your Way</span>
-        <h2 class="section-title">Free to Play, Optional Premium</h2>
-        <p class="section-description">
-          Experience the full game for free. Upgrade for unlimited energy,
-          exclusive skins, and an ad-free experience.
-        </p>
-      </div>
-
-      <div class="pricing-grid">
-        <!-- Free Tier -->
-        <div class="pricing-card">
-          <div class="pricing-header">
-            <h3 class="pricing-name">Free</h3>
-            <div class="pricing-price">
-              <span class="price-amount">$0</span>
-              <span class="price-period">forever</span>
-            </div>
-          </div>
-          <ul class="pricing-features">
-            <li><span class="feature-included">&#10003;</span> Full 50-level Journey Mode</li>
-            <li><span class="feature-included">&#10003;</span> All 5 Endless Mode variants</li>
-            <li><span class="feature-included">&#10003;</span> 5 progression skins</li>
-            <li><span class="feature-included">&#10003;</span> 5 earnable skins</li>
-            <li><span class="feature-included">&#10003;</span> GameCenter leaderboards</li>
-            <li><span class="feature-neutral">&#8722;</span> Energy refills over time (10 min each)</li>
-            <li><span class="feature-neutral">&#8722;</span> Contains ads</li>
-          </ul>
-          <a href="#download" class="btn btn-outline">Download Free</a>
-        </div>
-
-        <!-- Premium Subscription -->
-        <div class="pricing-card pricing-card-featured">
-          <div class="pricing-badge">Most Popular</div>
-          <div class="pricing-header">
-            <h3 class="pricing-name">Premium</h3>
-            <div class="pricing-price">
-              <span class="price-amount">$9.99</span>
-              <span class="price-period">/month</span>
-            </div>
-          </div>
-          <ul class="pricing-features">
-            <li><span class="feature-included">&#10003;</span> Everything in Free</li>
-            <li><span class="feature-premium">&#9733;</span> <strong>Unlimited energy</strong></li>
-            <li><span class="feature-premium">&#9733;</span> <strong>Ad-free experience</strong></li>
-            <li><span class="feature-premium">&#9733;</span> <strong>2x star earnings</strong></li>
-            <li><span class="feature-premium">&#9733;</span> <strong>5 exclusive skins</strong></li>
-            <li><span class="feature-premium">&#9733;</span> Early access to new content</li>
-            <li><span class="feature-premium">&#9733;</span> Seasonal cosmetics</li>
-          </ul>
-          <a href="#download" class="btn btn-primary">Start Free Trial</a>
-        </div>
-
-        <!-- One-Time Purchases -->
-        <div class="pricing-card">
-          <div class="pricing-header">
-            <h3 class="pricing-name">A La Carte</h3>
-            <div class="pricing-price">
-              <span class="price-amount">$0.99+</span>
-              <span class="price-period">one-time</span>
-            </div>
-          </div>
-          <ul class="pricing-features">
-            <li><span class="feature-included">&#10003;</span> Remove Ads - $4.99</li>
-            <li><span class="feature-included">&#10003;</span> Energy Refill - $0.99</li>
-            <li><span class="feature-included">&#10003;</span> Unlock All Endless - $2.99</li>
-            <li><span class="feature-included">&#10003;</span> Skip Realm - $2.99</li>
-            <li><span class="feature-included">&#10003;</span> Starter Pack - $0.99</li>
-            <li><span class="feature-included">&#10003;</span> Premium Skins - $1.99-$2.99</li>
-            <li><span class="feature-included">&#10003;</span> Cosmetic Bundle - $4.99</li>
-          </ul>
-          <a href="#download" class="btn btn-outline">View In App</a>
-        </div>
-      </div>
-
-      <p class="pricing-note">
-        <strong>No pay-to-win.</strong> All purchases are cosmetic or convenience-based.
-        Free players can access 100% of gameplay content.
-      </p>
-    </div>
-  </section>
-
-  <!-- Testimonials -->
-  <section class="section testimonials-section">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-label">Player Reviews</span>
-        <h2 class="section-title">What Players Are Saying</h2>
-      </div>
-      <div class="testimonials-grid">
-        <div class="testimonial-card">
-          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="testimonial-text">"The most beautiful rhythm game I've ever played. The particle effects during boss battles are absolutely stunning."</p>
-          <div class="testimonial-author">
-            <span class="author-name">RhythmMaster92</span>
-            <span class="author-source">App Store Review</span>
-          </div>
-        </div>
-        <div class="testimonial-card">
-          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="testimonial-text">"Finally a rhythm game that feels premium without forcing you to pay. Love the elemental theme and the Endless modes are addictive!"</p>
-          <div class="testimonial-author">
-            <span class="author-name">CosmicGamer</span>
-            <span class="author-source">App Store Review</span>
-          </div>
-        </div>
-        <div class="testimonial-card">
-          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="testimonial-text">"Each realm feels completely unique. The transition from meditative Air to intense Fire really tests your skills."</p>
-          <div class="testimonial-author">
-            <span class="author-name">ElementalFan</span>
-            <span class="author-source">App Store Review</span>
-          </div>
-        </div>
-        <div class="testimonial-card">
-          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
-          <p class="testimonial-text">"Great game, incredible visuals. Wish there were more levels but the endless modes make up for it. Highly recommend!"</p>
-          <div class="testimonial-author">
-            <span class="author-name">TapTapPro</span>
-            <span class="author-source">App Store Review</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ Section -->
-  <section class="section faq-section">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-label">Questions?</span>
-        <h2 class="section-title">Frequently Asked</h2>
-      </div>
-      <div class="faq-grid">
-        <div class="faq-item">
-          <button class="faq-question" aria-expanded="false">
-            <span>Is TapHorizon really free to play?</span>
-            <span class="faq-toggle">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Yes! You can play through all 50 Journey levels and all 5 Endless modes completely free. Energy regenerates over time (1 every 10 minutes, max 5). Premium is optional and primarily offers convenience and cosmetics.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question" aria-expanded="false">
-            <span>What devices are supported?</span>
-            <span class="faq-toggle">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>TapHorizon is available for iPhone running iOS 17.0 or later. We've optimized for 60fps gameplay on iPhone 13 and newer devices. iPad support may come in a future update.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question" aria-expanded="false">
-            <span>Is there multiplayer or leaderboards?</span>
-            <span class="faq-toggle">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Yes! TapHorizon features GameCenter integration with leaderboards for both Journey Mode (by realm) and all Endless Mode variants. Compete with friends and players worldwide.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question" aria-expanded="false">
-            <span>How do I unlock skins?</span>
-            <span class="faq-toggle">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>There are 25 total skins: 5 unlock automatically as you complete realms, 5 can be purchased with in-game Stars earned through gameplay, 10 are premium purchases, and 5 are exclusive to Premium subscribers.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question" aria-expanded="false">
-            <span>What if the audio seems off-sync?</span>
-            <span class="faq-toggle">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>TapHorizon includes an audio calibration tool in Settings. This lets you adjust for your specific device's latency to ensure perfect rhythm sync. Most players find the default works well, but calibration can help on certain devices.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question" aria-expanded="false">
-            <span>Can I restore purchases on a new device?</span>
-            <span class="faq-toggle">+</span>
-          </button>
-          <div class="faq-answer">
-            <p>Absolutely. Just sign in with the same Apple ID and use the "Restore Purchases" option in Settings. All your purchases and subscription status will be restored automatically.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Final CTA -->
-  <section class="section cta-section" id="download">
-    <div class="cta-bg">
-      <div class="cta-particles"></div>
-    </div>
-    <div class="container">
-      <div class="cta-content">
-        <h2 class="cta-title">Begin Your Ascension</h2>
-        <p class="cta-subtitle">
-          Download TapHorizon: Ascend today and embark on your journey
-          through the five elemental realms.
-        </p>
-        <a href="https://apps.apple.com/app/taphorizon-ascend" class="btn btn-primary btn-large" target="_blank" rel="noopener">
-          <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
-          </svg>
-          <span>Download on App Store</span>
-        </a>
-        <p class="cta-note">Free to play. No credit card required.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="#" class="footer-logo">
-            <img src="images/assets/logo.png" alt="TapHorizon Logo" class="footer-logo-img">
-            <span>TapHorizon</span>
+    <!-- ============================== -->
+    <!-- DOWNLOAD CTA                   -->
+    <!-- ============================== -->
+    <section class="pricing" id="download">
+      <div class="pricing__inner">
+        <h2 class="pricing__heading">Free to Play. No Compromises.</h2>
+        <p class="pricing__description">Experience all 50 levels, every Endless Mode variant, and Daily Challenges at no cost. Optional Premium ($4.99/month or $24.99 lifetime) unlocks unlimited energy, exclusive skins, and an ad-free experience.</p>
+        <div class="pricing__cta">
+          <a href="https://apps.apple.com/app/id6754547285" target="_blank" rel="noopener noreferrer">
+            <img src="images/assets/app-store-badge.svg" alt="Download on the App Store" class="hero__store-badge" width="180" height="60">
           </a>
-          <p class="footer-tagline">Ascend through rhythm. Master the elements.</p>
-          <div class="footer-social">
-            <a href="#" aria-label="Twitter" class="social-link">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+        </div>
+        <p class="pricing__free-note">Free to play. No credit card required.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================== -->
+  <!-- FOOTER                         -->
+  <!-- ============================== -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <div class="footer__logo">
+          <img src="images/assets/logo.png" alt="TapHorizon: Ascend" class="footer__logo-img" width="28" height="28" loading="lazy">
+          <span class="footer__logo-text">Tap<span>Horizon</span></span>
+        </div>
+        <p class="footer__tagline">Master the Elements. Conquer the Beat.</p>
+      </div>
+      <div class="footer__links">
+        <div class="footer__links-group">
+          <p class="footer__links-title">Legal</p>
+          <a href="privacy.html" class="footer__link">Privacy</a>
+          <a href="terms.html" class="footer__link">Terms</a>
+        </div>
+        <div class="footer__links-group">
+          <p class="footer__links-title">More</p>
+          <a href="support.html" class="footer__link">Support</a>
+        </div>
+        <div class="footer__links-group">
+          <p class="footer__links-title">Follow</p>
+          <div class="footer__social">
+            <a href="https://www.instagram.com/taphorizon.ascend/" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="Instagram">
+              <svg class="footer__social-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor"/></svg>
+              <span>Instagram</span>
             </a>
-            <a href="#" aria-label="Instagram" class="social-link">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
-            </a>
-            <a href="#" aria-label="TikTok" class="social-link">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/></svg>
+            <a href="https://www.tiktok.com/@taphorizon.ascend" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="TikTok">
+              <svg class="footer__social-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 0 1-2.59 2.5c-1.42 0-2.6-1.16-2.6-2.6 0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64 0 3.07 2.52 5.46 5.6 5.46 3.16 0 5.73-2.53 5.73-5.69V8.75a7.49 7.49 0 0 0 4.31 1.38V7.04s-1.95.07-3.8-1.22Z"/></svg>
+              <span>TikTok</span>
             </a>
           </div>
         </div>
-        <div class="footer-links">
-          <h4>Game</h4>
-          <ul>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#realms">Realms</a></li>
-            <li><a href="#gameplay">Gameplay</a></li>
-            <li><a href="#skins">Skins</a></li>
-            <li><a href="#pricing">Premium</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Support</h4>
-          <ul>
-            <li><a href="support.html">Help Center</a></li>
-            <li><a href="support.html#contact">Contact Us</a></li>
-            <li><a href="support.html#faq">FAQ</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Legal</h4>
-          <ul>
-            <li><a href="privacy.html">Privacy Policy</a></li>
-            <li><a href="terms.html">Terms of Service</a></li>
-          </ul>
-        </div>
       </div>
-      <div class="footer-bottom">
-        <p>&copy; 2025 SkyTap Games. All rights reserved.</p>
-        <p class="footer-note">TapHorizon: Ascend is a registered trademark. Apple and App Store are trademarks of Apple Inc.</p>
-      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copyright">2026 Hermes Horizon Pty Ltd. All rights reserved.</p>
     </div>
   </footer>
 
-  <!-- Scripts -->
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
+
+  <!-- TikTok Pixel Event Tracking -->
+  <script>
+  document.addEventListener('click', function(e) {
+    var link = e.target.closest('a[href*="apps.apple.com"]');
+    if (link && typeof ttq !== 'undefined') {
+      ttq.track('ClickButton', { content_name: 'App Store Download' });
+      ttq.track('Download', { content_name: 'TapHorizon Ascend iOS' });
+    }
+  });
+  </script>
 </body>
 </html>
